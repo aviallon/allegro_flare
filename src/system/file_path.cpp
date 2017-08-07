@@ -4,6 +4,7 @@
 
 #include <allegro_flare/file_path.h>
 
+#include <allegro5/allegro.h>
 #include <algorithm>
 #include <iostream>
 #include <locale>

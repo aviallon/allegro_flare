@@ -25,8 +25,11 @@
 
 #include <string>
 #include <vector>
-#include <allegro5/allegro.h>
 
+
+
+struct ALLEGRO_FS_ENTRY;
+struct ALLEGRO_PATH;
 
 
 
