@@ -40,6 +40,10 @@ void Path::_recursive_traverse_dir(ALLEGRO_FS_ENTRY *folder)
       while ((file=al_read_directory(folder)))
       {
          const char *filename = al_get_fs_entry_name(file);
+         if (al_get_fs_entry_mode(file) & ALLEGRO_FILEMODE_HIDDEN)
+         {
+            continue;
+         }
          if (al_get_fs_entry_mode(file) & ALLEGRO_FILEMODE_ISDIR)
          {
             ALLEGRO_FS_ENTRY *nested_folder = al_create_fs_entry(filename);
