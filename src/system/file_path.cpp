@@ -270,4 +270,13 @@ std::vector<ALLEGRO_PATH *> Path::path;
 
 
 
+std::vector<std::string> Path::get_paths()
+{
+   std::vector<std::string> result;
+   for (auto &p : Path::path)
+      result.push_back(al_get_path_filename(p));
+   return result;
+}
+
+
 

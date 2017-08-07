@@ -63,6 +63,8 @@ public:
    static void str_out();
    static void rescan(); // untested
 
+   static std::vector<std::string> get_paths();
+
    ~Path();
 };
 
