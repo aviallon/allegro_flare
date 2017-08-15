@@ -278,7 +278,7 @@ std::vector<std::string> Path::get_paths()
 {
    std::vector<std::string> result;
    for (auto &p : Path::path)
-      result.push_back(al_get_path_filename(p));
+      result.push_back(al_path_cstr(p, ALLEGRO_NATIVE_PATH_SEP));
    return result;
 }
 
