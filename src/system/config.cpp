@@ -7,7 +7,6 @@
 
 
 
-
 Config::Config(std::string filename)
    : filename(filename)
    , config_file(al_load_config_file(filename.c_str()))
@@ -21,7 +20,6 @@ Config::Config(std::string filename)
 
 
 
-
 bool Config::has_value(std::string section, std::string key)
 {
    if (!config_file) return false;
@@ -29,7 +27,6 @@ bool Config::has_value(std::string section, std::string key)
    if (!val) return false;
    return true;
 }
-
 
 
 
@@ -43,7 +40,6 @@ std::string Config::get_value_str(std::string section, std::string key)
 
 
 
-
 int Config::get_value_int(std::string section, std::string key)
 {
    if (!config_file) return 0;
@@ -51,7 +47,6 @@ int Config::get_value_int(std::string section, std::string key)
    if (!val) return 0;
    return atoi(val);
 }
-
 
 
 
@@ -65,13 +60,11 @@ float Config::get_value_float(std::string section, std::string key)
 
 
 
-
 std::string Config::get_or_default_str(std::string section, std::string key, std::string _default)
 {
    if (has_value(section, key)) return get_value_str(section, key);
    return _default;
 }
-
 
 
 
@@ -83,13 +76,11 @@ int Config::get_or_default_int(std::string section, std::string key, int _defaul
 
 
 
-
 float Config::get_or_default_float(std::string section, std::string key, float _default)
 {
    if (has_value(section, key)) return get_value_float(section, key);
    return _default;
 }
-
 
 
 
