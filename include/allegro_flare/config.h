@@ -4,7 +4,7 @@
 #include <string>
 #include <allegro5/allegro.h>
 
-
+namespace allegro_flare {
 
 class Config
 {
@@ -26,4 +26,4 @@ public:
 };
 
 
-
+}

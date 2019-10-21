@@ -9,7 +9,7 @@
 #include <vector>
 
 
-
+namespace allegro_flare {
 
 class I18n
 {
@@ -43,6 +43,6 @@ public:
 };
 
 
-
+}
 
 #endif

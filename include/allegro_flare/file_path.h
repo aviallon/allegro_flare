@@ -2,33 +2,28 @@
 #define __AF_FILE_PATH
 
 
+/* TODO
+have a std::vector<std::string, std::string> with special path locations
+project_path
+program_path
+system_path
+user_path
+etc...
 
+don't use a singleton
 
-// wishlist
-// have a std::vector<std::string, std::string> with special path locations
-// project_path
-// program_path
-// system_path
-// user_path
-// etc...
+implement a rescan
 
-// don't use a singleton
+swap out the functionality of find() and find_from() as appropriate
 
-// implement a rescan
-
-// swap out the functionality of find() and find_from() as appropriate
-
-// make all functions operate with a FIND_LATEST flag or something
-
-
-
+make all functions operate with a FIND_LATEST flag or something
+*/
 
 #include <string>
 #include <vector>
-#include <allegro5/allegro.h>
+#include <allegro5/allegro.h
 
-
-
+namespace allegro_flare {
 
 class Path
 {
@@ -64,6 +59,6 @@ public:
 };
 
 
-
+}
 
 #endif

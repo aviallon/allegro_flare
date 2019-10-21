@@ -10,7 +10,7 @@
 #define ALLEGRO_EVENT_FILESYS_CHANGE ALLEGRO_GET_EVENT_TYPE('F','S','C','H')
 
 
-
+namespace allegro_flare {
 
 class FileSysWatcher
 {
@@ -31,6 +31,6 @@ public:
 };
 
 
-
+}
 
 #endif

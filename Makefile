@@ -109,7 +109,7 @@ ifeq ($(OS), Windows_NT)
 else
 	UNAME_S := $(shell uname -s)
 	ifeq ($(UNAME_S),Linux)
-		OPENGL_LIB=[ERROR:OPENGL_LIBS_NOT_DEFINED_FOR_LINUX]
+		OPENGL_LIB=-lGL -lGLEW
 	endif
 	ifeq ($(UNAME_S),Darwin)
 		OPENGL_LIB=-framework OpenGL

@@ -5,7 +5,7 @@
 #include <allegro5/allegro_color.h>
 #include <string>
 
-
+namespace allegro_flare {
 
 struct AllegroColorAttributeDatatype
 {
@@ -19,4 +19,4 @@ public:
 };
 
 
-
+}

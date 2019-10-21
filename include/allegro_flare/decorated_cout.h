@@ -2,13 +2,10 @@
 #define __AF_DECORATED_COUT
 
 
-
-
 #include <iostream>
 #include <fstream>
 
-
-
+namespace allegro_flare {
 
 struct DecoratedCout
 {
@@ -44,6 +41,6 @@ public:
 };
 
 
-
+}
 
 #endif

@@ -7,7 +7,7 @@
 #include <vector>
 #include <allegro_flare/interpolators.h>
 
-
+namespace allegro_flare {
 
 
 class Motion
@@ -62,7 +62,7 @@ public:
    void cmove_to(float *val, float dest_val, float duration=0.4, float (*interpolator_func)(float)=interpolator::fast_in, void (*callback_func)(void *)=NULL, void *callback_data=NULL);
 };
 
-
+}
 
 
 #endif

@@ -10,7 +10,7 @@
 #include <allegro_flare/vec3d.h>
 
 
-
+namespace allegro_flare {
 
 typedef struct
 {
@@ -74,6 +74,6 @@ public:
 };
 
 
-
+}
 
 #endif

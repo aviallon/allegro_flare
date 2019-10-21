@@ -8,7 +8,7 @@
 #include <allegro_flare/blender.h>
 
 
-
+namespace allegro_flare {
 
 class appearance2d
 {
@@ -23,6 +23,6 @@ public:
 };
 
 
-
+}
 
 #endif

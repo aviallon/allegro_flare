@@ -1,7 +1,7 @@
 #ifndef __AF_CONSOLE_COLOR_HEADER
 #define __AF_CONSOLE_COLOR_HEADER
 
-
+namespace allegro_flare {
 
 
 #define CONSOLE_COLOR_RED "\033[1;31m"
@@ -10,6 +10,6 @@
 #define CONSOLE_COLOR_DEFAULT "\033[0m"
 
 
-
+}
 
 #endif

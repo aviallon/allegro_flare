@@ -67,7 +67,4 @@
 #include <allegro_flare/user_event_emitter.h>
 #include <allegro_flare/version.h>
 
-
-
-
 #endif

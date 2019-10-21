@@ -7,7 +7,7 @@
 #include <tuple>
 #include <vector>
 
-
+namespace allegro_flare {
 
 class KeyboardCommandMapper
 {
@@ -22,5 +22,4 @@ public:
    std::vector<std::string> get_mapping(int al_keycode, bool shift, bool ctrl, bool alt);
 };
 
-
-
+}

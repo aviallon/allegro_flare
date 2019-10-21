@@ -1,7 +1,7 @@
 #ifndef __AF_BLENDER_HEADER
 #define __AF_BLENDER_HEADER
 
-
+namespace allegro_flare {
 
 
 enum blender_t
@@ -20,6 +20,6 @@ enum blender_t
 void set_blender(blender_t type);
 
 
-
+}
 
 #endif

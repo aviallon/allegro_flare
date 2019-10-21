@@ -7,7 +7,7 @@
 #include <vector>
 #include <string>
 
-
+namespace allegro_flare {
 
 
 #define NOTE_OFF               0x80
@@ -68,7 +68,7 @@ void midi_all_notes_off();
 
 bool midi_sysex_send_message(char device_id, char command_format, char command, char data);
 
-
+}
 
 
 #endif

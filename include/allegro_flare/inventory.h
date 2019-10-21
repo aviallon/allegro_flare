@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-
+namespace allegro_flare {
 
 class Inventory
 {
@@ -23,5 +23,6 @@ public:
    std::string get_str();
 };
 
+}
 
 

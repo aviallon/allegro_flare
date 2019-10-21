@@ -2,15 +2,13 @@
 #define __AF_DRAWING_INTERFACE_HEADER
 
 
-
-
 #include <string>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_color.h>
 #include <allegro5/allegro_font.h>
 
 
-
+namespace allegro_flare {
 
 class DrawingInterface
 {
@@ -38,6 +36,6 @@ public:
 };
 
 
-
+}
 
 #endif

@@ -11,7 +11,7 @@
 #include <stdlib.h>
 
 
-
+namespace allegro_flare {
 
 namespace JSON
 {
@@ -166,6 +166,6 @@ JSON::Object json_object(std::string str);
 JSON::Null json_null(std::string str);
 
 
-
+}
 
 #endif

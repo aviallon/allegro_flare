@@ -8,7 +8,7 @@
 #include <allegro_flare/timeline.h>
 
 
-
+namespace allegro_flare {
 
 namespace automation
 {
@@ -110,6 +110,6 @@ namespace automation
 } // (end namespace automation)
 
 
-
+}
 
 #endif

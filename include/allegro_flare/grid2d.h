@@ -10,7 +10,7 @@
 #include <allegro_flare/color.h>
 #include <allegro_flare/vec2d.h>
 
-
+namespace allegro_flare {
 
 
 //"If I hadn't tried, the cost would have been my soul." - Kirk
@@ -54,6 +54,6 @@ public:
 };
 
 
-
+}
 
 #endif

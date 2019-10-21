@@ -9,7 +9,7 @@
 #include <allegro_flare/vec2d.h>
 
 
-
+namespace allegro_flare {
 
 class projected_point_data
 {
@@ -53,6 +53,6 @@ public:
 };
 
 
-
+}
 
 #endif

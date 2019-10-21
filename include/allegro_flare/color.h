@@ -10,7 +10,7 @@
 //#include <allegro_flare/color_names.h>
 
 
-
+namespace allegro_flare {
 
 namespace color
 {
@@ -308,6 +308,6 @@ inline ALLEGRO_COLOR operator*(float lhs, const ALLEGRO_COLOR& rhs)
 }
 
 
-
+}
 
 #endif

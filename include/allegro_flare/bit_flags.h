@@ -7,7 +7,7 @@
 //#include <cstdint>
 
 
-
+namespace allegro_flare {
 
 template<class T>
 class BitFlags
@@ -119,6 +119,6 @@ enum tile_flag_t
 */
 
 
-
+}
 
 #endif

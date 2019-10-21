@@ -19,7 +19,7 @@
 #include <allegro_flare/screen.h>
 
 
-
+namespace allegro_flare {
 
 class Framework
 {
@@ -79,6 +79,6 @@ public:
 };
 
 
-
+}
 
 #endif

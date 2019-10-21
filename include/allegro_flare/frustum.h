@@ -2,7 +2,7 @@
 #define __AF_FRUSTUM_HEADER
 
 
-
+namespace allegro_flare {
 
 struct Frustum
 {
@@ -14,6 +14,6 @@ public:
 };
 
 
-
+}
 
 #endif

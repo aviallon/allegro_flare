@@ -8,7 +8,7 @@
 #include <allegro_flare/attributes.h>
 
 
-
+namespace allegro_flare {
 
 class ElementID : public Attributes
 {
@@ -93,6 +93,6 @@ private:
 };
 
 
-
+}
 
 #endif

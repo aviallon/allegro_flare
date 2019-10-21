@@ -7,7 +7,7 @@
 #include <string>
 
 
-
+namespace allegro_flare {
 
 class Clipboard
 {
@@ -23,7 +23,7 @@ public:
    static std::string get();
 };
 
-
+}
 
 
 #endif

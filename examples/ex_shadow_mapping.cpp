@@ -5,7 +5,7 @@
 
 #include <allegro_flare/cubemap.h>
 
-
+using namespace allegro_flare;
 
 class Camera3
 {
@@ -666,8 +666,3 @@ int main(int argc, char **argv)
 	Framework::run_loop();
 	return 0;
 }
-
-
-
-
-

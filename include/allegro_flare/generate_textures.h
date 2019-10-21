@@ -7,7 +7,7 @@
 #include <allegro_flare/allegro_flare.h>
 
 
-
+namespace allegro_flare {
 
 // shapes
 
@@ -38,6 +38,6 @@ ALLEGRO_BITMAP *create_pixel_pattern_3(ALLEGRO_COLOR pixel1_color, ALLEGRO_COLOR
 ALLEGRO_BITMAP *create_pixel_pattern_4(ALLEGRO_COLOR pixel1_color, ALLEGRO_COLOR pixel2_color, int x_distance=5, float slope=-1);
 
 
-
+}
 
 #endif

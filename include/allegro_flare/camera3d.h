@@ -9,7 +9,7 @@
 #include <allegro_flare/vec3d.h>
 
 
-
+namespace allegro_flare {
 
 struct camera_tracking_setting // TODO: <-this
 {
@@ -63,7 +63,7 @@ public:
    Frustum get_frustum(ALLEGRO_DISPLAY *d);
 };
 
-
+}
 
 
 #endif

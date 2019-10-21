@@ -3,12 +3,11 @@
 
 
 
-
 #include <vector>
 #include <allegro5/allegro.h>
 
 
-
+namespace allegro_flare {
 
 class Display
 {
@@ -51,7 +50,6 @@ public:
    void clear();
 };
 
-
-
+}
 
 #endif

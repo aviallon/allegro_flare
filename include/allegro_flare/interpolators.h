@@ -7,7 +7,7 @@
 #include <string>
 
 
-
+namespace allegro_flare {
 
 namespace interpolator
 {
@@ -86,6 +86,6 @@ namespace interpolator
 }
 
 
-
+}
 
 #endif

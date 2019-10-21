@@ -9,7 +9,7 @@
 #include <allegro_flare/vec2d.h>
 
 
-
+namespace allegro_flare {
 
 class SegmentInfo
 {
@@ -120,6 +120,6 @@ public:
 };
 
 
-
+}
 
 #endif

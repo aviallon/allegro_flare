@@ -14,7 +14,7 @@
 #include <allegro_flare/useful_php.h>
 
 
-
+namespace allegro_flare {
 
 template <class T>
 class Bin
@@ -299,6 +299,6 @@ T Bin<T>::operator[](const std::string &identifier)
 }
 
 
-
+}
 
 #endif

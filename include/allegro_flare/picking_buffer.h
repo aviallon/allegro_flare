@@ -7,7 +7,7 @@
 #include <allegro5/bitmap.h>
 
 
-
+namespace allegro_flare {
 
 class PickingBuffer
 {
@@ -33,6 +33,6 @@ public:
 };
 
 
-
+}
 
 #endif

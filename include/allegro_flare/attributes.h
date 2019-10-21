@@ -11,7 +11,7 @@
 #include <iostream>
 
 
-
+namespace allegro_flare {
 
 class Attributes
 {
@@ -164,6 +164,6 @@ private:
 };
 
 
-
+}
 
 #endif
